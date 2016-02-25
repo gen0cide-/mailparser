@@ -193,7 +193,7 @@ might not be `fileName` parameter at all, so it is better to rely on
 #### Testing attachment integrity
 
 Attachment objects include `length` property which is the length of the attachment
-in bytes and `checksum` property which is a `md5` hash of the file.
+in bytes and `checksum` property which is a `sha1` hash of the file.
 
 ### Running tests
 
